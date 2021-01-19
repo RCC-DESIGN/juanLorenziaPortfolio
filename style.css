@@ -1,0 +1,29 @@
+section {
+    height: 600px;
+}
+
+.nav-bar {
+  background-color: rgb(22,33,41);
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.nav-bar-ul{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-bar-ul li {
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2em;
+}
+
+.nav-bar a{
+  color: white;
+  text-decoration: none;
+}
