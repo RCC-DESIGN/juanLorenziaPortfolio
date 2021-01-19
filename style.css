@@ -33,7 +33,6 @@ section {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
 img {
 
  width: 100%;
@@ -43,21 +42,3 @@ img {
  
 }
 
-=======
-h2 {
-  font-size: 32px;
-  font-weight: bolder;
-  display: flex;
-  justify-content: center;
-  padding: 50px;
-}
-
-#About-Me p {
-  font-size: 16px;
-  font-weight: 200;
-  display: flex;
-  justify-content: center;
-  padding: 0 40px 40px 40px;
-  line-height: 2em;
-}
->>>>>>> 89533def348be1ccc108bcffeeb75f43d697a2cc
