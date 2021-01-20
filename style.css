@@ -109,7 +109,7 @@ h1 {
 }
 
 .block {
-  height:100vh;
+  height:90vh;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -137,6 +137,7 @@ h1 {
 #block4 {
   background-color: #fff2ca;
   color: #6926e0;
+  padding-bottom: 100px;
 }
 
 a {
@@ -148,6 +149,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.block img {
+  max-width: 70%;
+  max-height: 40%;
+}
 
 
 
