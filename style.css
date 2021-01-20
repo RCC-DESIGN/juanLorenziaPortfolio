@@ -67,12 +67,12 @@ h1 {
 
 
 .juan-background {
-  background-image: radial-gradient(circle at center center, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 1) 46%, rgba(255, 255, 255, 1) 100%);
+  background-image: radial-gradient(center at center, rgba(100, 100, 100, 255) 0%, rgba(255, 255, 255, 1) 46%, rgba(255, 255, 255, 1) 100%);
   display: inline-block;
 }
 
 .juan-background img {
-  width:80%;
+  width: 100%;
   height:auto;
   border-radius: 80%;
   mix-blend-mode: lighten;
