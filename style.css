@@ -19,6 +19,14 @@ header {
   word-spacing: 16px;
 }
 
+#navigate-buttons {
+  position: fixed;
+  z-index: 5;
+  font-size: xx-large;
+  top: 1px;
+  left: 4%;
+
+}
 
 .nav-bar {
   background-color: white;
