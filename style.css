@@ -1,7 +1,10 @@
+
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
+
 
 body{
   display: flex;
@@ -10,10 +13,20 @@ body{
 
 }
 
+header {
+  padding: 5%;
+  font-weight:600;
+  letter-spacing: 3px;
+  word-spacing: 16px;
+}
+
 .nav-bar {
   background-color: rgb(22,33,41);
   padding-top: 14px;
   padding-bottom: 14px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .nav-bar-ul{
@@ -37,6 +50,15 @@ body{
   width:33%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Merriweather', sans-serif;
+}
+
 h1 {
   display: flex;
   justify-content: center;
@@ -47,6 +69,7 @@ h1 {
   background-image: radial-gradient(center at center, rgba(100, 100, 100, 255) 0%, rgba(255, 255, 255, 1) 46%, rgba(255, 255, 255, 1) 100%);
   display: inline-block; */
 }
+
 .juan-background img {
   width: 100%;
   height:auto;
@@ -66,10 +89,13 @@ h1 {
 
 #About-Me {
   padding: 10%;
+  background-color: #0a0a0a;
+  color: white;
 }
 
 #About-Me article {
   padding-top: 10%;
+  color: white;
 }
 
 
@@ -82,7 +108,51 @@ h1 {
   line-height: 2em;
 }
 
+.block {
+  height:90vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
 
+.block p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#block1 {
+  background-color: #9ed3e5;
+  color: black;
+  
+}
+#block2 {
+  background-color: #6926e0;
+  color: white;
+}
+#block3 {
+  background-color: #ba0705;
+  color: white;
+}
+#block4 {
+  background-color: #fff2ca;
+  color: #6926e0;
+  padding-bottom: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.block img {
+  max-width: 70%;
+  max-height: 40%;
+}
 
 
 
