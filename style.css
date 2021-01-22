@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+  line-height: 1.6;
 }
 
 
@@ -10,11 +12,12 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   
+  
 }
 
 header {
   padding: 15% 0 5% 5%;
-  font-weight: 600;
+  font-weight: lighter;
   letter-spacing: 3px;
   word-spacing: 16px;
 }
@@ -24,7 +27,7 @@ header {
   background-color: white;
   padding-top: 14px;
   padding-bottom: 14px;
-  box-shadow: 8px 4px 2px grey;
+  box-shadow: 1px 1px 1px grey;
   position: fixed;
   top: 0;
   width: 100%;
@@ -279,6 +282,7 @@ main {
 }
 
 #case-study img {
+  width: 50%;
   padding: 10px
 }
 
@@ -376,4 +380,22 @@ touch events so it should not bleed over to mobile */
 #graph:hover {
   transform-origin: bottom right;
   transform: scale(1.5);
+}
+
+#case-study-p {
+
+  margin-bottom: 32%;
+  
+}
+h2 {
+  width:100%;
+  text-align:center;
+  margin-bottom:10px;
+  font-size: 2em;
+  font-weight: lighter;
+  
+}
+
+p {
+  font-size: small;
 }
