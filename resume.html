@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="prev" href="./index.html">
     <link rel="prev" href="./aboutMe.html">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./mobile.css">
 </head>
 
 <!-- <div id=navigate-buttons>
@@ -22,53 +25,89 @@
             <li><a href="./aboutMe.html">About Me</a></li>
         </ul>
     </nav>
-    <section id="video">
-        <video width="auto" height="300" controls>
-            <source src="./videos/Juan Lorenzia.mp4" type="video/mp4">
-        </video>
-        <!-- <h2>Juan Working</h2> -->
+    <div id="mobile-box">
+        <section id="video">
+            <video width="auto" height="280" controls>
+                <source src="./videos/Juan Lorenzia.mp4" type="video/mp4">
+            </video>
+            <!-- <h2>Juan Working</h2> -->
 
-    </section>
+        </section>
+    </div>
     <main>
         <section class="card" id="resume">
-            <h2>Resume</h2>
+            <h2 id="cardh2">RESUME</h2>
             <img src="/images/Resume-sample.png" alt="Resume-sample">
 
         </section>
         <section class="card" id=case-study>
-            <div #case-study-p>
-                <h2>Case Study</h2>
+            <div id="case-study-p">
+                <h2 id="cardh2">CASE STUDY</h2>
 
                 <p>Immigration to us is a struggle for more than 6,556,551
-                    people yearly. My goal: to aide in social and emotional
+                    people yearly.
+                    <br>
+                    My goal: to aide in social and emotional
                     distress involving immigration with Imobe app
                 </p>
-                <br>
-                <br>
             </div>
-            <div id="inner-box1">
+
+            <div id="picture-box">
                 <img src="./images/CaseStudy1.png" alt="CaseStudy1">
                 <img src="/images/CaseStudy2.jpeg" alt="CaseStudy2">
-            </div>
-            <div id="inner-box2">
                 <img src="/images/CaseStudy3.jpg" alt="CaseStudy3">
                 <img src="/images/CaseStudy4.jpg" alt="CaseStudy4">
             </div>
+
         </section>
         <section id="prototype-graph">
             <div class="card2" id="prototype">
-                <h2>Prototype</h2>
+                <h2 id="cardh2">PROTOTYPE</h2>
                 <img src="/images/prototype.png" alt="prototype">
 
             </div>
             <div class="card2" id="graph">
-                <h2>Graph</h2>
-                <img src="/images/graph.png" alt="graph">
+                <h2 id="cardh2">GRAPH</h2>
+                <p>Smart App Virtual
+                    <br>
+                    Assistant
+                    <br>
+                    Document Checking & uploading
+                    <br>
+                    24/ht customer service
+                </p>
+                <!-- <img src="/images/graph.png" alt="graph"> -->
             </div>
         </section>
     </main>
+    </div>
 
 
 </body>
+
+
+<footer>
+    <h3>
+        Interested in learning more about my work? <b><i><a href="#"> Let's Chat </a></i></b>
+    </h3>
+
+    <hr>
+
+    <div class="socialMediaLinks">
+        <div class="SM-buttons">
+            <img src="images/mail@2x.png">
+        </div>
+        <div class="SM-buttons">
+            <img src="images/icon.png">
+        </div>
+        <div class="SM-buttons">
+            <img src="images/github@2x.png">
+        </div>
+        <div class="SM-buttons">
+            <img src="images/twitter@2x.png">
+        </div>
+    </div>
+</footer>
+
 
 </html>
